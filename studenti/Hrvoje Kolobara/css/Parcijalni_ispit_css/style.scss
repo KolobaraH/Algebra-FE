@@ -2,11 +2,11 @@
 @import "base/reset";
 @import "abstract/mixins";
 
-$cloud-size: 200px;
+$cloud-size: 400px;
 $color-sun: $color-sun;
 
 body {
-  background-image: url("../Parcijalni_ispit/img/back.jpg");
+  background-image: url("https://raw.githubusercontent.com/zorislav/Algebra-FE/main/CSS/Parcijalni%20ispit/back.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,7 +56,7 @@ footer {
   position: absolute;
   width: $cloud-size;
   height: $cloud-size;
-  background-image: url("../Parcijalni_ispit/img/cloud.png");
+  background-image: url("https://raw.githubusercontent.com/zorislav/Algebra-FE/main/CSS/Parcijalni%20ispit/cloud.png");
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 2;
